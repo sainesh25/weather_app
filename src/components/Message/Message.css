@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
+
+.no-data-error{
+    margin: 1rem;
+    font-family: 'Kanit', sans-serif;
+    color: rgb(255, 130, 130);
+    font-size: 1.5rem;
+}
+
+@media (max-width: 1200px) {
+    
+    
+}
+@media (max-width: 992px) {
+    .no-data-error{
+        font-size: 1.5rem;
+    }
+    
+}
+@media (max-width: 767px) {
+
+    
+}
+@media (max-width: 576px) {
+    .no-data-error{
+        font-size: 1rem;
+    }
+    
+}

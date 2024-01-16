@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
+
+h1{
+    font-size: 2rem;
+    font-family: 'Kanit', sans-serif;
+}
+
+@media (max-width: 767px) {
+    h1{
+        font-size: 1.8rem;
+    }
+}
+@media (max-width: 576px) {
+    h1{
+        font-size: 1.5rem;
+    }   
+}

@@ -1,0 +1,63 @@
+/* .search-btn{
+    width: 10rem;
+    border: none;
+    padding: .6rem;
+    border-radius: 3rem;
+    background-color: #4136a3;
+    color: white;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+.search-btn {
+    border: none;
+    width: 10rem;
+    padding: .6rem;
+    border-radius: 3rem;
+    background: #1C1A1C;
+    cursor: pointer;
+    transition: all 450ms ease-in-out;
+    color: #AAAAAA;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+.search-btn:hover {
+    background: linear-gradient(0deg,#A47CF3,#683FEA);
+    box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4),
+    inset 0px -4px 0px 0px rgba(0, 0, 0, 0.2),
+    0px 0px 0px 4px rgba(255, 255, 255, 0.2),
+    0px 0px 180px 0px #9917FF;
+    transform: translateY(-2px);
+} 
+.search-btn:hover{
+    color: white;
+} 
+
+.button-wrapper{
+    padding: 1rem 2rem .5rem;
+}
+@media (max-width: 1200px) {
+    
+    
+}
+@media (max-width: 992px) {
+
+    
+}
+@media (max-width: 767px) {
+    .search-btn{
+        padding: .4rem;
+        width: 100%;
+        font-size: .9rem;
+    }
+    .button-wrapper{
+        padding: 1rem 1rem .5rem;
+    }
+
+}
+@media (max-width: 576px) {
+
+    .search-btn{
+        padding: .4rem;
+        font-size: .7rem;
+    }
+}

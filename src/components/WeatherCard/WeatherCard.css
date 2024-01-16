@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
+
+.weather-card{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(255, 255, 255, 0.233);
+    color: white;
+    padding: 1rem;
+    border-radius: 5px;
+
+}
+.weather-extra-info{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.weather-card-main{
+    padding: 2rem;
+}
+.city-name{
+    font-weight: 400;
+    font-size: 3rem;
+}
+.weather-icon{
+    width: 5rem;
+}
+.weatherinfo{
+    display: flex;
+    justify-content: center;
+}
+.temp-txt{
+    font-size: 2.5rem;
+    margin: .5rem;
+}
+.weather-description{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.extra-info-txt{
+    font-size: .8rem;
+    margin: .3rem 0;
+}
+
+@media (max-width: 1200px) {
+    
+    
+}
+@media (max-width: 992px) {
+
+
+}
+@media (max-width: 767px) {
+    .weather-card-main{
+        padding: 1rem; 
+    }
+    .weather-description{
+        font-size: 1.2rem;
+    }
+    .temp-txt{
+        font-size: 2rem;
+    }
+    .city-name{
+        font-size: 2.5rem;
+    }
+}
+@media (max-width: 576px) {
+
+    .weather-description{
+        font-size: .8rem;
+    }
+    .temp-txt{
+        font-size: 1.5rem;
+    }
+    .city-name{
+        font-size: 1.8rem;
+    }
+    .extra-info-txt{
+        font-size: .7rem;
+    }
+}

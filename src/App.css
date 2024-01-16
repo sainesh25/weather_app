@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.App{
+    color: #e7e4ff;
+    background: linear-gradient( 90deg , #131031 0% , #181252 50%) ;
+    text-align: center;
+    padding: 1rem;
+}
