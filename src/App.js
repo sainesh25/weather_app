@@ -116,7 +116,7 @@ function App() {
     
     // console.log(city);
     return (
-        <div className="App">
+        <div className="App" style={{minHeight: '100vh'}}>
             <AppHeading>Weather Application</AppHeading>
             <SearchBar onchangeEvent={handleChange} val={city.trimStart()} placeholder='Search for a city'/>
             <SearchButton  onclickEvent={searchCity}>Search</SearchButton> 
